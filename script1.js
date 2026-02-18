@@ -226,6 +226,7 @@ btnLogin.addEventListener('click', function (e) {
     }`;
     containerApp.style.opacity = 100; //create current date and time
        instructions.innerHTML = '';
+   instructions.style.opacity = 100;
 
     const date = new Date();
 
@@ -265,6 +266,7 @@ btnLogin.addEventListener('click', function (e) {
       if (time === 0) {
         clearInterval(timer);
         containerApp.style.opacity = 0;
+        instructions.style.opacity = 0;
      instructions.innerHTML = `
       <p>*** Type the following to log in and unlock the UI:***</p>
       <p>Username: js</p>
@@ -358,6 +360,7 @@ async function getTodos() {
 }
 
 getTodos();
+
 
 
 
