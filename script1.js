@@ -64,6 +64,7 @@ const labelSumOut = document.querySelector('.summary__value--out');
 const labelSumInterest = document.querySelector('.summary__value--interest');
 const labelTimer = document.querySelector('.timer');
 const containerApp = document.querySelector('.app');
+const instructions = document.querySelector('.instructions');
 const containerMovements = document.querySelector('.movements');
 const btnLogin = document.querySelector('.login__btn');
 const btnTransfer = document.querySelector('.form__btn--transfer');
@@ -224,6 +225,7 @@ btnLogin.addEventListener('click', function (e) {
       currentAccount.owner.split(' ')[0]
     }`;
     containerApp.style.opacity = 100; //create current date and time
+       instructions.innerHTML = '';
     const date = new Date();
 
     const options = {
@@ -262,6 +264,19 @@ btnLogin.addEventListener('click', function (e) {
       if (time === 0) {
         clearInterval(timer);
         containerApp.style.opacity = 0;
+     instructions.innerHTML = `
+      <p>*** README: type the following to log in and unlock the UI:***</p>
+      <p>Username: js</p>
+      <p>Password: 1111</p>
+      <br />
+      <p>Username: jd</p>
+      <p>Password: 2222</p>
+      <br />
+      <p>Username: stw</p>
+      <p>Password: 3333</p>
+      <br />
+      <p>Username: ss</p>
+      <p>Password: 4444</p>`;
         labelWelcome.textContent = `Login to get started`;
       }
     }, 1000);
@@ -342,3 +357,4 @@ async function getTodos() {
 }
 
 getTodos();
+
