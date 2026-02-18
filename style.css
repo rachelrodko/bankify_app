@@ -295,3 +295,18 @@ h2 {
 .timer {
   font-weight: 600;
 }
+
+.instructions {
+  margin-top: 30px;
+  display: inline-block;
+  align-items: self-end;
+  border: 10px solid rgb(255, 221, 213);
+  padding: 10px;
+  justify-content: flex-end;
+  background-color: rgb(254, 255, 219);
+}
+.readme {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+}
