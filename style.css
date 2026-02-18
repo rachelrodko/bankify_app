@@ -296,7 +296,7 @@ h2 {
   font-weight: 600;
 }
 
-.instructions {
+.readme {
   margin-top: 30px;
   display: inline-block;
   align-items: self-end;
@@ -305,7 +305,7 @@ h2 {
   justify-content: flex-end;
   background-color: rgb(254, 255, 219);
 }
-.readme {
+.instructions {
   display: flex;
   justify-content: flex-end;
   font-weight: 700;
