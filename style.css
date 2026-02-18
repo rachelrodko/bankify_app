@@ -303,5 +303,8 @@ h2 {
 .instructions {
   display: flex;
   justify-content: flex-end;
-  font-weight: 700;
+
+}
+.bold{
+    font-weight: 700;
 }
