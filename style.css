@@ -295,10 +295,10 @@ h2 {
   margin-top: 30px;
   display: inline-block;
   align-items: self-end;
-  border: 10px solid rgb(255, 221, 213);
+  border: 10px solid rgb(230, 210, 190);
   padding: 10px;
   justify-content: flex-end;
-  background-color: rgb(254, 255, 219);
+  background-color: rgb(255, 255, 255);
 }
 .instructions {
   display: flex;
