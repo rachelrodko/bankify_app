@@ -269,6 +269,7 @@ btnLogin.addEventListener('click', function (e) {
         instructions.style.opacity = 100;
      instructions.innerHTML = `
       <p>*** Type the following to log in and unlock the UI:***</p>
+      <br />
       <p>Username: js</p>
       <p>Password: 1111</p>
       <br />
@@ -360,6 +361,7 @@ async function getTodos() {
 }
 
 getTodos();
+
 
 
 
