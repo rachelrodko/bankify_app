@@ -226,6 +226,7 @@ btnLogin.addEventListener('click', function (e) {
     }`;
     containerApp.style.opacity = 100; //create current date and time
        instructions.innerHTML = '';
+    console.log('jihihihih');
     const date = new Date();
 
     const options = {
@@ -357,5 +358,6 @@ async function getTodos() {
 }
 
 getTodos();
+
 
 
