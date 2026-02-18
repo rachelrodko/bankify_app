@@ -265,7 +265,7 @@ btnLogin.addEventListener('click', function (e) {
         clearInterval(timer);
         containerApp.style.opacity = 0;
      instructions.innerHTML = `
-      <p>*** README: type the following to log in and unlock the UI:***</p>
+      <p>*** Type the following to log in and unlock the UI:***</p>
       <p>Username: js</p>
       <p>Password: 1111</p>
       <br />
@@ -357,4 +357,5 @@ async function getTodos() {
 }
 
 getTodos();
+
 
